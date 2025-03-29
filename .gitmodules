@@ -1,6 +1,3 @@
-[submodule "modules/quapp"]
-	path = modules/quapp
-	url = git@github.com:x99oly/Quapp.git
 [submodule "modules/llms/duckbot-gpt"]
 	path = modules/llms/duckbot-gpt
 	url = git@github.com:x99oly/Duckbot-gpt.git
