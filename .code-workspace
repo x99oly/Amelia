@@ -1,0 +1,14 @@
+{
+    "folders": [
+      {
+        "path": "modules"
+      },
+      {
+        "path": "modules/other-project"
+      }
+    ],
+    "settings": {
+      "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe"
+    }
+  }
+  

@@ -1,3 +1,6 @@
 [submodule "modules/llms/duckbot-gpt"]
 	path = modules/llms/duckbot-gpt
 	url = git@github.com:x99oly/Duckbot-gpt.git
+[submodule "modules/zapi"]
+	path = modules/zapi
+	url = git@github.com:x99oly/Zapi.git

@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug zapi",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/modules/zapi/src/index.ts",  // Ensure this points to zapi's entry file
+            "runtimeArgs": [
+                "-r", "ts-node/register",  // This will load ts-node
+                "-r", "tsconfig-paths/register"  // This handles path aliases
+            ],
+            "console": "integratedTerminal",
+            "outFiles": [
+                "${workspaceFolder}/modules/zapi/dist/**/*.js"
+            ],
+            "cwd": "${workspaceFolder}/modules/zapi"  // Make sure the working directory is set to zapi
+        }
+    ]
+}
