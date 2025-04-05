@@ -4,3 +4,6 @@
 [submodule "modules/zapi"]
 	path = modules/zapi
 	url = git@github.com:x99oly/Zapi.git
+[submodule "modules/lumen_resume"]
+	path = modules/lumen_resume
+	url = git@github.com:x99oly/Lumen-Resume.git
