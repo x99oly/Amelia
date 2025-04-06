@@ -7,3 +7,6 @@
 [submodule "modules/lumen_resume"]
 	path = modules/lumen_resume
 	url = git@github.com:x99oly/Lumen-Resume.git
+[submodule "modules/gitter"]
+	path = modules/gitter
+	url = git@github.com:x99oly/Gitter.git
