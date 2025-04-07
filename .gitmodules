@@ -10,3 +10,6 @@
 [submodule "modules/gitter"]
 	path = modules/gitter
 	url = git@github.com:x99oly/Gitter.git
+[submodule "modules/clients/resumeu"]
+	path = modules/clients/resumeu
+	url = git@github.com:x99oly/resumeu.git
